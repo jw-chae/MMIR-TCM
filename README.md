@@ -96,29 +96,6 @@ TDEU = α × Semantic_Similarity + β × Diagnostic_Accuracy + γ × Clinical_Re
 
 ---
 
-## 🏆 Results
-
-### Performance Comparison
-
-| Model | TDEU ↑ | Syndrome Acc. ↑ | Prescription F1 ↑ |
-|-------|--------|-----------------|-------------------|
-| GPT-4o | 0.742 | 68.3% | 0.651 |
-| Gemini 2.5 Flash | 0.758 | 71.2% | 0.673 |
-| **MMIR-TCM (Ours)** | **0.847** | **82.5%** | **0.789** |
-
-MMIR-TCM **significantly outperforms** leading models including GPT-4o and Gemini 2.5 Flash.
-
-### Qualitative Results
-
-<details>
-<summary>📊 Show Success Cases</summary>
-
-*Success cases will be added upon code release*
-
-</details>
-
-<details>
-<summary>⚠️ Show Failure Cases</summary>
 
 ![Failure Analysis](figures/MMIR-TCM_Failures_01.png)
 
